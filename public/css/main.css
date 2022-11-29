@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{
+	font-family: "Montserrat";
+	font-weight: 300 ;
+	-webkit-font-smoothing: antialiasd;
+	-webkit-overflow-scrolling: touch;
+	margin-bottom: 0;
+
+
+
+}
+
+.bgDark{
+	background-color: #303841;
+}
+.bgOrange{
+	background-color: #FF5722;
+	border-radius: 20px;
+	border: orange;
+	margin-right: 10px;
+	width: 210px;
+	max-width: 100%;
+	text-align: center;
+
+}
+.block{
+	height: 100vh;
+	padding-top: 50px ;
+}
+a{
+	text-decoration: none ;
+	color: #303841;
+}
+.orange {
+	color: #FF5722;
+}
+
+.white{
+	color: #EEEEEE;
+
+}
+.dark{
+	color: #303841;
+}
+
+.bigText{
+	font-size: 96px;
+}
+.regularText{
+	font-size: 24px;
+}
+.firstBlock {
+	height: 80vh;
+	padding-top: 30px ;
+
+}
+.centeredText{
+	text-align: center;
+}
+.centered {
+	position: relative;
+}
+.cenIn{
+	position: absolute;              
+   top: 50%;                         
+   transform: translate(0, -50%) }
+
+.underNav {
+	background-color: #303841;
+}
+img {
+	max-width: 100%;
+}
+.smallImg{
+	padding: 70px;
+}
+.nav-link {
+	font-size: 32px;
+}
+.firstBlock{
+	height: 100vh-142px;
+
+}
+.smDs{
+	padding: 40px ;
+}
+.bigBut{
+	height: 50px;
+	border-radius: 30px;
+	background-color: #00AFB6 ;
+	color: #EEEEEE;
+	width: 80%;
+	margin-left: 10%;
+
+}
+.inForm{
+	height: 70px;
+	margin-bottom: 15px;
+	background-color: #EEEEEE ;
+	color: #AFAFAF;
+	border: #EEEEEE;
+	border-radius: 30px;
+	padding-left: 15px;
+	font-size: 48px;
+
+}
+.regBut{
+	width: 80%;
+	background-color: #00AFB6;
+	border-radius: 20px;
+	border: #00AFB6;
+	height: 50px;
+	font-size: 36px;
+	color: #EEEEEE;
+	margin-top: 20px;
+
+}
+.formSt{
+	margin-bottom: 20px;
+
+}
+.videoCourse{
+	padding-top: 50px;
+	
+}
+.orBut{
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 20px;
+	background-color: #FF5722;
+	border: #FF5722;
+	height: 40px;
+	margin-bottom: 15px;
+
+}
+.smallBut{
+	width: 200px;
+	background-color: #00AFB6;
+	border-radius: 20px;
+	border: #00AFB6;
+	
+	
+	color: #EEEEEE;
+	margin-top: 20px;
+}
+.footSt{
+	background-color: #00ADB5;
+
+}
+.darkBg{
+	background-color: #303841;
+
+}
+.whiteBg{
+	background-color:#EEEEEE ;
+	border-radius: 20px;
+	padding: 10px;
+	opacity: 0.8;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    top:35vh;
+    font-family: 'Exo', sans-serif;
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+.area{
+    background: #00ADB5;  
+    background: -webkit-linear-gradient(to left, #FF5722, #00ADB5);  
+    width: 100%;
+    height:90vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

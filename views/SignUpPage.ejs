@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SighUp</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="fontawesome/css/brands.css" rel="stylesheet">
+  <link href="fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light navbar-fixed">
+  <div class="container">
+  	<div class="navbar-header">
+  		<a class="navbar-brand" href="#">
+  			<img src="/img/logo.png" alt="">
+  		</a>
+  	</div>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link dark" aria-current="page" href="#about">Про нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dark" href="page2.ejs">Програма навчання</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link dark" href="VideoCorse.ejs">Відеокурс</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg underNav navbar-fixed  bgDark">
+
+  
+  	<div class="container">
+  		<div class="row" id="" >
+  			<div class="col-6 col-xs-6 col-sm-6 col-md-5"><a href="LogInPage.ejs"><button class="bgOrange">Увійти</button></a></div>
+  			<div class="col-6 col-xs-6 col-sm-6 col-md-5"><button class="bgOrange">Зареєструватись</button></div>
+  		</div>
+  	</div>
+</nav>
+  <div class="container my-5 py-5 z-depth-1">
+
+ 
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+
+          <!-- Default form register -->
+          <form class="text-center" method="post" action="/index.ejs">
+
+            <p class="h4 mb-4">Реєстрація</p>
+
+            <div class="form-row mb-4">
+              <div class="col">
+                <!-- First name -->
+                <input type="text" name="name" id="defaultRegisterFormFirstName" class="form-control" placeholder="Імʼя">
+              </div>
+              <br>
+              <div class="col">
+                <!-- Last name -->
+                <input type="text" name="surName" id="defaultRegisterFormLastName" class="form-control" placeholder="Прізвище">
+              </div>
+            </div>
+
+            
+            <input type="email" name="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Пошта">
+
+            <!-- Password -->
+            <input type="password" name="pass" id="defaultRegisterFormPassword" class="form-control" placeholder="Пароль"
+              aria-describedby="defaultRegisterFormPasswordHelpBlock">
+            <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+              Мінімум 8 символів
+            </small>
+
+            
+            <input type="number" name="phone" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number"
+              aria-describedby="defaultRegisterFormPhoneHelpBlock">
+            <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+              
+            </small>
+            <br><br>
+
+            
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" name="check" class="custom-control-input" id="defaultRegisterFormNewsletter">
+              <label class="custom-control-label" for="defaultRegisterFormNewsletter">Підписатись на новини</label>
+            </div>
+
+            
+            <button class="btn btn-info my-4 btn-block smallBut" type="submit">Зареєструватись</button>
+
+            <!-- Social register -->
+            
+
+            <hr>
+
+            
+            <p>Натискаючи
+              <em>Зареєструватись</em> Ви підтверджуєте
+              <a href="#" target="_blank">умови</a>
+
+          </form>
+          
+
+        </div>
+        
+
+      </div>
+      
+
+
+    </section>
+    
+
+
+  </div>
+<nav class="footSt">
+  	<div class="container">
+
+ 
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 py-5 text-center white-text elegant-color z-depth-1 rounded">
+
+      <h3 class="">До учнів з любовʼю <i class="fas fa-heart red-text mx-1"></i></h3>
+
+    </section>
+    <!--Section: Content-->
+
+
+  </div>
+  </nav>
+
+</body>
+</html>

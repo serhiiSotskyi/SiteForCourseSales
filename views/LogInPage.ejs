@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>LogIn</title>
+
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/main.css">
+	<link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light navbar-fixed">
+  <div class="container">
+  	<div class="navbar-header">
+  		<a class="navbar-brand" href="#">
+  			<img src="/img/logo.png" alt="">
+  		</a>
+  	</div>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link dark" aria-current="page" href="index.ejs">Про нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link dark" href="page2.ejs">Програма навчання</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link dark" href="videoCorse.ejs">Відеокурс</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<nav class="navbar navbar-expand-lg underNav navbar-fixed  bgDark">
+
+  
+  	<div class="container">
+  		<div class="row" id="" >
+  			<div class="col-6 col-xs-6 col-sm-6 col-md-5"><a href="LogInPage.ejs"><button class="bgOrange">Увійти</button></a></div>
+  			<div class="col-6 col-xs-6 col-sm-6 col-md-5"><a href="SignUpPage.ejs"><button class="bgOrange">Зареєструватись</button></a></div>
+  		</div>
+  	</div>
+  
+</nav>
+	<div class="container my-5 py-5 z-depth-1">
+
+
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 text-center text-lg-left dark-grey-text">
+ 
+
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-md-6">
+            <% if(messages.error) { %>
+            <%= messages.error %>
+            <% } %>
+          <!-- Default form login -->
+          <form class="text-center" action="#!">
+
+            <p class="h4 mb-4">Увійти</p>
+
+            <!-- Email -->
+            <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Пошта">
+ 
+            <!-- Password -->
+            <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Пароль">
+
+            <div class="d-flex justify-content-around">
+              <div>
+                <!-- Remember me -->
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                  <label class="custom-control-label" for="defaultLoginFormRemember">Запамʼятати мене</label>
+                </div>
+              </div>
+              <div>
+                <!-- Forgot password -->
+                <a href="">Забули пароль?</a>
+              </div>
+            </div>
+
+            <!-- Sign in button -->
+            <button class="btn btn-info btn-block my-4 smallBut" type="submit">Увійти</button>
+
+            <!-- Register -->
+            <p>Не зареєстрований?
+              <a href="SignUpPage.ejs">Зареєструватись</a>
+            </p>
+
+            <!-- Social login -->
+            
+
+          </form>
+          <!-- Default form login -->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+
+    </section>
+    <!--Section: Content-->
+
+
+  </div>
+  <nav class="footSt">
+  	<div class="container">
+
+ 
+    <!--Section: Content-->
+    <section class="px-md-5 mx-md-5 py-5 text-center white-text elegant-color z-depth-1 rounded">
+
+      <h3 class="">До учнів з любовʼю <i class="fas fa-heart red-text mx-1"></i></h3>
+
+    </section>
+   
+
+
+  </div>
+  </nav>
+</body>
+</html>
